@@ -5,4 +5,10 @@ body{
   background-color: colors.$dark-blue;
   height: 98vh;
   width: 100vh;
+
+  ::selection, ::-moz-selection{
+    color: black;
+    background-color: colors.$neon-green;
+  }
+
 }

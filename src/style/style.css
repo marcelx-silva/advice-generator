@@ -4,5 +4,9 @@ body {
   height: 98vh;
   width: 100vh;
 }
+body ::selection, body ::-moz-selection {
+  color: black;
+  background-color: hsl(150deg, 100%, 66%);
+}
 
 /*# sourceMappingURL=style.css.map */
