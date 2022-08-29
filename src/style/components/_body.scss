@@ -1,0 +1,8 @@
+@use "../abstract/colors";
+@use "../abstract/fonts";
+
+body{
+  background-color: colors.$dark-blue;
+  height: 98vh;
+  width: 100vh;
+}

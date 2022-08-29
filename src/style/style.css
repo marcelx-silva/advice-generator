@@ -1,3 +1,8 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Secular+One&display=swap");
+body {
+  background-color: hsl(218deg, 23%, 16%);
+  height: 98vh;
+  width: 100vh;
+}
 
 /*# sourceMappingURL=style.css.map */
