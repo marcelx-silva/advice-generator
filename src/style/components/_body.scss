@@ -6,7 +6,7 @@ body{
   height: 98vh;
   width: 100vh;
 
-  ::selection, ::-moz-selection{
+  ::selection{
     color: black;
     background-color: colors.$neon-green;
   }
