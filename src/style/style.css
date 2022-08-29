@@ -3,6 +3,7 @@ body {
   background-color: hsl(218deg, 23%, 16%);
   height: 98vh;
   width: 100vh;
+  font-family: "Manrope", serif;
 }
 body ::selection {
   color: black;
