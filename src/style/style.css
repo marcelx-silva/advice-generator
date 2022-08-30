@@ -92,6 +92,17 @@ header ul {
   gap: 2rem;
 }
 
+@media (min-width: 768px) {
+  header .title-logo {
+    justify-content: center;
+  }
+  header h1.title {
+    font-size: x-large;
+  }
+  header .social-network {
+    height: 2rem;
+  }
+}
 .social-network {
   height: 1.75rem;
 }

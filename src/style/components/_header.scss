@@ -1,4 +1,5 @@
 @use "../abstract/colors";
+$layout-breakpoint-large: 768px;
 
 header{
   background-color: colors.$dark-grayish-blue;
@@ -35,4 +36,21 @@ header{
     gap:2rem;
   }
 
+}
+
+@media (min-width: $layout-breakpoint-large) {
+
+  header{
+    .title-logo{
+      justify-content: center;
+    }
+
+    h1.title{
+      font-size: x-large;
+    }
+
+    .social-network{
+      height: 2rem;
+    }
+  }
 }
