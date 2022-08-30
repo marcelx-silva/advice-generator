@@ -1,16 +1,13 @@
 @use "../abstract/colors";
 @use "../abstract/fonts";
 
-body{
+html{
   background-color: colors.$dark-blue;
-  height: 98vh;
-  width: 100vh;
-
-  ::selection{
-    color: black;
-    background-color: colors.$neon-green;
-  }
-
+  height: 100vh;
   font-family: fonts.$font-stack;
+}
 
+::selection{
+  color: black;
+  background-color: colors.$neon-green;
 }
