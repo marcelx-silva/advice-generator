@@ -58,6 +58,10 @@ html {
   font-family: "Manrope", serif;
 }
 
+body {
+  height: 95vh;
+}
+
 ::selection {
   color: black;
   background-color: hsl(150deg, 100%, 66%);

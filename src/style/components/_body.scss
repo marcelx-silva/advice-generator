@@ -7,6 +7,10 @@ html{
   font-family: fonts.$font-stack;
 }
 
+body{
+  height: 95vh;
+}
+
 ::selection{
   color: black;
   background-color: colors.$neon-green;
