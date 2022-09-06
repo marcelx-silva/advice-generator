@@ -1,0 +1,26 @@
+@use '../abstract/colors';
+
+footer{
+  height: 25vh;
+  text-align:center;
+  background-color: colors.$grayish-blue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img{
+    height:65px;
+  }
+
+  p{
+    margin: 1.8rem;
+    color:colors.$dark-blue;
+
+    a{
+      color:colors.$light-cyan;
+    }
+  }
+}
+

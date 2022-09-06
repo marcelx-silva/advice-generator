@@ -104,6 +104,26 @@ body {
   background-color: hsl(150deg, 100%, 66%);
 }
 
+footer {
+  height: 25vh;
+  text-align: center;
+  background-color: hsl(217deg, 19%, 38%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer img {
+  height: 65px;
+}
+footer p {
+  margin: 1.8rem;
+  color: hsl(218deg, 23%, 16%);
+}
+footer p a {
+  color: hsl(193deg, 38%, 86%);
+}
+
 header {
   background-color: hsl(217deg, 19%, 24%);
   height: 3.5rem;
