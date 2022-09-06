@@ -88,6 +88,10 @@ main button#btn {
   border: none;
   vertical-align: middle;
 }
+main button#btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1em hsl(150deg, 100%, 66%);
+}
 
 html {
   background-color: hsl(218deg, 23%, 16%);

@@ -41,6 +41,12 @@ main{
     border: none;
     vertical-align: middle;
   }
+
+  button#btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1em colors.$neon-green;
+
+  }
 }
 
 
