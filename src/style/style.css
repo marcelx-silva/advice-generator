@@ -52,6 +52,43 @@ table {
   border-spacing: 0;
 }
 
+main {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .advice-section {
+  height: 40vh;
+  width: 38vh;
+  background-color: hsl(217deg, 19%, 24%);
+  margin: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  padding: 2%;
+}
+main .advice-section .advice-label {
+  text-align: center;
+  color: hsl(217deg, 19%, 38%);
+  margin-top: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+main .advice-section .advice-label span {
+  color: hsl(150deg, 100%, 66%);
+}
+main .advice-section #quote {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+main button#btn {
+  background-color: hsl(150deg, 100%, 66%);
+  border-radius: 9999px;
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  vertical-align: middle;
+}
+
 html {
   background-color: hsl(218deg, 23%, 16%);
   height: 100vh;
