@@ -79,6 +79,7 @@ main .advice-section .advice-label span {
 main .advice-section #quote {
   font-size: 1.2rem;
   padding: 1rem;
+  line-height: 1.7rem;
 }
 main button#btn {
   background-color: hsl(150deg, 100%, 66%);
